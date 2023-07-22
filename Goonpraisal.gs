@@ -1,10 +1,11 @@
 /*====================================================================================================================================*
-  Evepraisal Tools by Kevin McDonald
+  Goonpraisal Tools
   ====================================================================================================================================
-  Version:      1.1.0
-  Project Page: https://github.com/evepraisal/evepraisal-google-sheets
+  Version:      1.1.1
+  Project Page: https://github.com/ahoehne/goonpraisal-google-sheets
+  Fork Of:	https://github.com/evepraisal/evepraisal-google-sheets
   Copyright:    (c) 2018 by Kevin McDonald
-
+  Modifications: 2023 Andreas Höhne
   ------------------------------------------------------------------------------------------------------------------------------------
   A library for importing evepraisal data into Google spreadsheets. Functions include:
      EVEPRAISAL_TOTAL  For getting totals of an existing appraisal
@@ -95,7 +96,7 @@ function EVEPRAISAL_TOTAL(appraisal_id, order_type) {
     order_type = "sell";
   }
 
-  var jsondata = fetchUrl("https://evepraisal.com/a/" + encodeURIComponent(appraisal_id) + ".json", 86400, null);
+  var jsondata = fetchUrl("https://www.goonpraisal.com/a/" + encodeURIComponent(appraisal_id) + ".json", 86400, null);
   var object = JSON.parse(jsondata);
   return object["totals"][order_type];
 }
@@ -127,7 +128,7 @@ function EVEPRAISAL_ITEM(item_id, market, order_type, attribute) {
     }
   }
 
-  var jsondata = fetchUrl("https://evepraisal.com/item/" + encodeURIComponent(item_id) + ".json", 300, 86400);
+  var jsondata = fetchUrl("https://www.goonpraisal.com/item/" + encodeURIComponent(item_id) + ".json", 300, 86400);
   var object = JSON.parse(jsondata);
 
   for (i in object["summaries"]) {

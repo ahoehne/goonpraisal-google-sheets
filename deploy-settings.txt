@@ -1,5 +1,5 @@
-Title: Evepraisal Tools
-Short description: Import Evepraisal item prices directly into your spreadsheets. Get live prices for Eve Online items where you need them the most.
+Title: Goonpraisal Tools
+Short description: Import Goonpraisal item prices directly into your spreadsheets. Get live prices for Eve Online items where you need them the most.
 Help URL:
-Report Issue URL: https://github.com/evepraisal/evepraisal-google-sheets/issues/new
+Report Issue URL: https://github.com/ahoehne/goonpraisal-google-sheets/
 Post-install tip: Start using the 'EVEPRAISAL_ITEM' and 'EVEPRAISAL_TOTAL' functions by choosing "Add-ons > Evepraisal > Use in this spreadsheet".
