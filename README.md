@@ -1,5 +1,5 @@
-# evepraisal-google-sheets
-Evepraisal helper functions intended for use in Google sheets
+# goonpraisal-google-sheets
+Goonpraisal helper functions intended for use in Google sheets
 
 ## Install
 
@@ -21,3 +21,5 @@ Evepraisal helper functions intended for use in Google sheets
 =EVEPRAISAL_ITEM(34, "jita", "sell", "avg")
 
 ```
+Credits:
+This is an Fork of https://github.com/evepraisal/evepraisal-google-sheets by Kevin McDonald
