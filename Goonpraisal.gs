@@ -96,7 +96,7 @@ function EVEPRAISAL_TOTAL(appraisal_id, order_type) {
     order_type = "sell";
   }
 
-  var jsondata = fetchUrl("https://www.goonpraisal.com/a/" + encodeURIComponent(appraisal_id) + ".json", 86400, null);
+  var jsondata = fetchUrl("https://appraise.imperium.nexus/a/" + encodeURIComponent(appraisal_id) + ".json", 86400, null);
   var object = JSON.parse(jsondata);
   return object["totals"][order_type];
 }
@@ -128,7 +128,7 @@ function EVEPRAISAL_ITEM(item_id, market, order_type, attribute) {
     }
   }
 
-  var jsondata = fetchUrl("https://www.goonpraisal.com/item/" + encodeURIComponent(item_id) + ".json", 300, 86400);
+  var jsondata = fetchUrl("https://appraise.imperium.nexus/item/" + encodeURIComponent(item_id) + ".json", 300, 86400);
   var object = JSON.parse(jsondata);
 
   for (i in object["summaries"]) {
