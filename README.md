@@ -4,8 +4,8 @@ Goonpraisal helper functions intended for use in Google sheets
 ## Install
 
 1. Open a google sheets document
-2. Go to Tools > Script Editor...
-3. Replace the contents of the file with the contents of [Goonpraisal.gs]([https://raw.githubusercontent.com/evepraisal/evepraisal-google-sheets/master/Evepriasal.gs](https://raw.githubusercontent.com/ahoehne/goonpraisal-google-sheets/master/Goonpraisal.gs))
+2. Go to Extensions > Apps Script...
+3. Replace the contents of the file with the contents of [Goonpraisal.gs](https://raw.githubusercontent.com/ahoehne/goonpraisal-google-sheets/master/Goonpraisal.gs)
 4. Save the file (enter in a project name, this doesn't really matter)
 5. Try some of the examples below
 
