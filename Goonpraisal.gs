@@ -1,7 +1,7 @@
 /*====================================================================================================================================*
   Goonpraisal Tools
   ====================================================================================================================================
-  Version:      1.1.1
+  Version:      1.1.2
   Project Page: https://github.com/ahoehne/goonpraisal-google-sheets
   Fork Of:	https://github.com/evepraisal/evepraisal-google-sheets
   Copyright:    (c) 2018 by Kevin McDonald
